@@ -46,8 +46,8 @@ errMsj!: string;
       }, err =>{
         this.islogger = false;
         this.islogginFail = true;
-        this.errMsj = err.error.mensaje;
-        console.log(this.errMsj);
+        /** this.errMsj = err.error.mensaje;
+        console.log(this.errMsj); **/
       
       })
   }

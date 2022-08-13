@@ -1,5 +1,9 @@
 div{
     background-color: blue;
+    width: 100%;
+    margin: 0%;
+    
+    
     
     
 }
@@ -7,4 +11,32 @@ div{
 app-social{
     float: right;
     margin-top: 25px;
+    width: 100%;
+    margin: 0%;
 }
+
+app-banner{
+    
+        background-color: gainsboro;
+        padding: 20px;
+        width: 100%;
+        margin: 0%;
+        
+       
+        
+        
+    
+}
+
+@keyframes example {
+    from {background-color: black;}
+    to {background-color: white;}
+  }
+  
+
+  app-banner {
+   
+    background-color: white;
+    animation-name: example;
+    animation-duration: 10s;
+  }

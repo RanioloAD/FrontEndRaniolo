@@ -1,13 +1,17 @@
 .row{
-    background-color: aqua;
-   
+    background-color: skyblue;
+    width: 100%;
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 footer{
-    color: blue;
-    font-size: 14px;
+    color: navy;
+   
+    font-weight: bold;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    box-shadow: 2px -2px 5px red;
+   
 }
