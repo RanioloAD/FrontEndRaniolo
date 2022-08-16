@@ -49,16 +49,40 @@ img:active:not(#LogoAP) {
 
 @media (max-width:575px) {
 
-.container {
-    flex-direction: column;
-}
+    .container {
+        flex-direction: column;
+    }
+    
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .redes img{
+        margin: 0.2em;
+    }
+    }
 
-.redes{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.redes img{
-    margin: 0.2em;
-}
-}
+    @media (max-width:320px) {
+
+        .container {
+            flex-direction: column;
+        }
+        
+        .redes{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 10%;
+        }
+        .redes img{
+            margin: 0.9em;
+            
+        }
+
+        .btn {
+            border-width: medium;
+            margin-left: 35%;
+            align-items: center;
+        }
+        }

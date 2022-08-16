@@ -15,6 +15,7 @@ h1,h3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+
 @media (max-width:575px){
     h1 {
        text-align: center;
@@ -22,3 +23,4 @@ h1,h3{
 
     
 }
+    
